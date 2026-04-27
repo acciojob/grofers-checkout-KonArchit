@@ -5,7 +5,7 @@ let table = document.querySelector('table')
 
 const getSum = () => {
 //Add your code here
-	let totalPrice = document.querySelectorAll(".price")
+	let totalPrice = document.querySelectorAll(".prices")
             let newRow = document.createElement('tr')
             let sum = 0
 

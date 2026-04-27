@@ -12,6 +12,7 @@ const getSum = () => {
             for(let i of totalPrice){
                 sum = sum + +i.innerHTML
             }
+	newRow.id = "ans"
             newRow.innerText = sum
             table.append(newRow)
 };
